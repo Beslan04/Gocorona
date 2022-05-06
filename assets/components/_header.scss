@@ -1,0 +1,96 @@
+
+
+.header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    &__container{
+       display: flex;
+       min-height: 114px;
+       align-items: center;
+    }
+    &__logo{
+        position: relative;
+        z-index: 5;
+    }
+    
+    &__menu{
+        flex: 1 1 auto;
+
+    }
+    
+    &__button{
+        flex: 0 0 252px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        z-index: 5;
+    }
+    
+    &__menu.menu{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .menu{
+        &__list{
+            display: flex;
+        }
+           
+        
+        &__link{
+            font-family: "Raleway"; 
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 1.2px;
+            color: $black;
+            letter-spacing: 1px;
+         }
+         &__link:hover{
+            text-decoration: underline;
+         }
+            &__item{
+                margin: 0px 40px 0px  0px;
+              }
+        
+    }
+    
+}
+.button{
+    font-family: "Raleway";
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 1.2px;
+    letter-spacing: 1px;
+    color:$white;
+    padding: 14px 30px;
+     border-radius: 5px;
+     background-color: $red;
+     transition: 0.3s ease 0s;
+
+}
+.button:hover{
+    background-color: $red-light; 
+}
+
+.button__blue{
+    background-color: $blue;
+   
+}
+ .button__blue:hover{
+        background-color:$blue-light;
+    }
+
+    .close-icon-menu,
+    .icon-menu{
+        display: none;
+     
+    }
+
+  
+ 
+   
