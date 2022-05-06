@@ -206,7 +206,6 @@ a {
       -ms-flex: 0 1 51%;
           flex: 0 1 51%;
   position: relative;
-  z-index: 2;
 }
 
 .get-started__image img {
@@ -342,7 +341,6 @@ a {
 
 .media-stay-safe__image img {
   position: relative;
-  z-index: 2;
   max-width: 100%;
 }
 
@@ -737,7 +735,7 @@ a {
   .menu__body {
     position: fixed;
     top: 0;
-    left: -100%;
+    left: -120%;
     width: 100%;
     height: 100%;
     overflow: auto;
